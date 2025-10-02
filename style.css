@@ -105,3 +105,26 @@
     font-size: 1.07em;
     word-break: break-word;
   }
+.link-button {
+  display: inline-block;
+  background: #ffd700;
+  color: #1f1f40;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;            /* Slightly larger font */
+  border: none;
+  padding: 16px 40px;
+  border-radius: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 12px 18px;
+  box-shadow: 0 2px 6px rgba(31,31,64,0.10);
+  transition: background 0.3s, color 0.3s;
+  cursor: pointer;
+}
+.link-button:hover,
+.link-button:focus {
+  background: #1f1f40;
+  color: #ffd700;
+  outline: 2px solid #ffd700;
+}
