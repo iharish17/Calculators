@@ -124,5 +124,6 @@
 }
 .link-button:hover,
 .link-button:focus {
+  transform: translateY(-1px) scale(1.03);
   filter: brightness(0.94);
 }
