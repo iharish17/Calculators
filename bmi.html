@@ -116,6 +116,17 @@
       text-shadow: 0 3px 18px rgba(60,60,60, 0.09);
       letter-spacing: 0.02em;
     }
+    .calculator-container label{
+      padding: 8px 10px;
+      font-size: 1.06rem;
+      border: 1px solid #c0c9ea;
+      border-radius: 6px;
+      text-align: center;
+      width: 70px;
+      margin-right: 0;
+      background: #f6faff;
+      color: #393939;
+    }
     .calculator-container input[type="number"] {
       padding: 8px 10px;
       font-size: 1.06rem;
@@ -195,7 +206,6 @@
     <div class="result" id="result"></div>
     <div class="category" id="category"></div>
   </div>
-
   <script>
     function calculateBMI() {
       var weight = parseFloat(document.getElementById('weight').value);
