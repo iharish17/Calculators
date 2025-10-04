@@ -4,37 +4,52 @@
   <title>BMI Calculator</title>
   <style>
     body {
-      background: linear-gradient(120deg, #6dd5ed 0%, #2193b0 100%);
+      background: linear-gradient(135deg, #7f7fd5 0%, #91eae4 100%);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      min-height: 100vh;
       font-family: Arial, sans-serif;
-      color: #222;
-      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
     }
     .calculator-container {
-      background: #fff;
-      padding: 28px 24px;
-      border-radius: 14px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.09);
-      max-width: 400px;
-      margin: 60px auto;
+      background: transparent;
+      box-shadow: none;
+      border-radius: 20px;
+      max-width: 900px;
+      width: 100%;
       text-align: center;
+      padding: 0;
+      margin-top: 0;
     }
     input[type="number"] {
-      width: 60%;
-      padding: 10px;
-      margin: 12px;
-      border: 1px solid #aaa;
+      padding: 8px 10px;
+      font-size: 1.06rem;
+      border: 1px solid #c0c9ea;
       border-radius: 6px;
-      font-size: 16px;
+      text-align: center;
+      width: 70px;
+      margin-right: 0;
+      background: #f6faff;
+      color: #393939;
     }
     button {
-      background: #2193b0;
-      color: #fff;
+      margin-top: 32px;
+      padding: 16px 0;
+      width: 100%;
+      background: linear-gradient(90deg, #ffd600, #ffd600);
       border: none;
-      border-radius: 6px;
-      padding: 10px 28px;
-      font-size: 16px;
+      border-radius: 13px;
+      color: #343434;
+      font-weight: 700;
+      font-size: 1.22rem;
       cursor: pointer;
-      transition: background 0.2s;
+      box-shadow: 0 4px 14px rgba(80,80,150,0.14);
+      transition: filter 0.13s, transform 0.13s;
     }
     button:hover {
       background: #6dd5ed;
@@ -47,6 +62,15 @@
     .category {
       font-weight: bold;
       margin-top: 5px;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin-bottom: 26px;
+      margin-top: 18px;
+      text-shadow: 0 3px 18px rgba(60,60,60, 0.09);
+      letter-spacing: 0.02em;
     }
   </style>
 </head>
