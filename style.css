@@ -40,8 +40,8 @@
   flex-wrap: wrap;
   margin-top: 11px;
   }
-     .link-buttons-row {
-      display: flex;
+.link-buttons-row {
+  display: flex;
   justify-content: center;
   gap: 28px;
   flex-wrap: wrap;
